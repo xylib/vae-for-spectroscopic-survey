@@ -1,7 +1,4 @@
-# vae-for-spectroscopic-survey
-
-Investigation of stellar magnetic activity using VAE]{Investigation of stellar magnetic activity using variational autoencoder based on low-resolution spectroscopic survey
-
+# Investigation of stellar magnetic activity using VAE
 The demo code and 1000 spectra.
 
 Requirements:
