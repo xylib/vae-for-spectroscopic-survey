@@ -10,11 +10,11 @@ The purpose of this VAE model is to generate the inactive template spectra in an
 
 The unsupervised VAE model is efficient for the analysis of the stellar magnetic activity in large spectroscopic surveys, since it do not need to know any stellar parameters or perform the template matching with the stellar spectral library. We trained the model on the selected inactive spectra in the LAMOST-K2 database, and the details can be found in the paper. 
 
-We also trained a VAE neural network to model the simulated CSST slitless spectra, whose spectral resolution is much lower (≥200), to search for the Halpha emission. We can use this method to investigate the stellar magnetic activity with the CSST all-sky survey, which will deliver unprecedented database in the future.
+We also trained a VAE neural network to model the simulated CSST slitless spectra, whose spectral resolution is much lower (≥200), to search for the Halpha emission. We can use this method to investigate the stellar magnetic activity with the CSST all-sky survey, which will deliver unprecedented photometric and spectroscopic data in the future.
 
 <p align="center"><img src="data/example_csst.png" width="90%" height="90%"></p>
 
-We provide the Jupyter notebook as well as 1000 LAMOST spectra and the corresponding degraded ones (simulate the CSST slitless spectra) for the demo.
+We provide the Jupyter notebook as well as 1000 LAMOST spectra and the corresponding degraded ones (the simulated CSST slitless spectra) for the demo.
 
 ## Requirements
 
