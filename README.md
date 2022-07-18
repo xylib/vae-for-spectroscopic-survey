@@ -2,13 +2,13 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2206.07257-B31B1B.svg)](http://arxiv.org/abs/2206.07257)
 
-The variational autoencoder (VAE) models for [Xiang, Gu & Cao, 2022, MNRAS, 514, 4781](http://arxiv.org/abs/2206.07257).
+The variational autoencoder (VAE) models for [Xiang, Gu & Cao, 2022, MNRAS, 514, 4781](https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.4781X/abstract).
 
 The purpose of this VAE model is to generate the inactive template spectra, which are used for the spectral subtraction analysis, in an unsupervised manner. After subtracting the reference spectra (photospheric contributions) from the observed stellar spectra, we can measure the residual emissions of the chromospheric indicators, such as Halpha and Ca II IRT lines, to quantify the activity level of stars. We applied the VAE to the low-resolution spectra (R=1800) of the LAMOST-K2 survey to investigate the stellar magnetic activity.
 
 <p align="center"><img src="data/example.png" width="90%" height="90%"></p>
 
-We also trained a VAE neural network with the same hidden architecture on the simulated CSST slitless spectra, whose resolving power is much lower (R≥200), to search for the Halpha emission. We can use this model to investigate the stellar activity with the CSST all-sky survey, which will deliver unprecedented photometric and spectroscopic data in the future.
+We also trained a VAE neural network with the same hidden architecture on the simulated [CSST](https://en.wikipedia.org/wiki/Xuntian) slitless spectra, whose resolving power is much lower (R≥200), to search for the Halpha emission. We can use this model to investigate the stellar activity with the CSST all-sky survey, which will deliver unprecedented photometric and spectroscopic data in the future.
 
 <p align="center"><img src="data/example_csst.png" width="90%" height="90%"></p>
 
